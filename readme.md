@@ -3,7 +3,32 @@
 
 ## Obsah
 
+## Funkce
+V souboru functions.php deklarujte funkce 
 
+### 1
+Deklarujte funkci celsiusToFahrenheit, která převede hodnotu zadanou v celsiích na fahrenheity. Funkce bude mít jeden vstupní parametr a výstupem bude převedená hodnota.
+
+### 2
+Deklarujte funkci pro nalezení maximální hodnoty v poli. Funkce bude mít jeden vstupní parametr typu pole a výstupem bude číslo označující maximální hodnota v poli.
+
+Pro pole použijte hodnoty:
+`39, 63, 32, 34, 38, 18, 87, 29, 87, 26, 32, 60, 8, 96, 99, 67, 5, 19, 22, 40, 32, 78, 54, 9, 85, 75, 26, 55, 11, 33, 68, 30, 25, 2, 68, 31, 9, 2, 48, 79, 99, 27, 53, 89, 62, 42, 36, 63, 7, 71`
+
+### 3
+Vytvořte funkci `jePrvocislo`, která zjistí, zda je číslo prvočíslem.
+
+### 4
+Ze vzorových hodnot pouze za využití funkcí, cyklu a podmínek vytvořte dvě pole,
+a) první pole `prvocisla` obsahuje pouze prvočísla
+b) druhé pole `pole` pouze ostatní hodnoty
+
+### 5
+Deklarujte funkci `jeSilneHeslo`, které bude dle aktuálních bezpečnostních best practise ověřovat, zda-li vstupní řetězec je silné heslo. Funkce bude mít jeden vstupní parametr a výstupem bude boolean hodnota.
+
+
+
+## Require a Include
 ### 1. Index
 1. Do souboru `index.php` integrujte obsahové soubory `templ_header` a `templ_footer` a "sestavte" výslednou webovou stránku.
 
