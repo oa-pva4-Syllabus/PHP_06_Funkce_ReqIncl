@@ -34,6 +34,15 @@ Upravte strukturu projektu s využitím funkcí include/require a optimální st
 - Do patičky přidejte text `&copy; ROK author - projectName - verze APP_VERSION`, kde `author`, `projectName` a `APP_VERSION` budou nahrazeny hodnotami z konfiguračního souboru.
 
 ### Výstup formuláře
+- Po odeslání formuláře zobrazte potvrzující zprávu o úspěšném odeslání formuláře.
+```html
+<div class="alert alert-success alert-dismissible">
+  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+  <h5><i class="icon fas fa-check"></i> Alert!</h5>
+  Success alert preview. This alert is dismissable.
+</div>
+```
+
 - Výstup formuláře naformátujte pomocí popisného seznamu [description list](https://adminlte.io/themes/v3/pages/UI/general.html). Pozor na správné použití css tříd pro horizontální zobrazení a sloupcový layout.
 
 ```html
